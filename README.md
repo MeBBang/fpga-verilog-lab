@@ -11,10 +11,10 @@
 | FPGA | `xc7s75fgga484-1` (Spartan-7) |
 | I/O 표준 | LVCMOS33 |
 | 시뮬레이터 | Vivado Simulator (xsim) |
+| 보드 | HBE-ComboII-DLD-51 |
+| DIP 스위치 | ON 쪽으로 올린 상태가 1 |
 
 ## 보드 핀 배치
-
-보드는 HBE-ComboII-DLD-51. DIP 스위치는 ON 쪽으로 올린 상태가 1이다.
 
 | Signal | Pin | | Signal | Pin | | Signal | Pin |
 |---|---|---|---|---|---|---|---|
