@@ -34,6 +34,8 @@
 | 2 | Logic Gate & Adder | [`week02/`](week02/) |
 | 3 | Combinational Circuit | [`week03/`](week03/) |
 | 4 | Sequential Logic Circuit | [`week04/`](week04/) |
+| 5 | State Machine | [`week05/`](week05/) |
+| 6 | 7-Segment & Piezo | [`week06/`](week06/) |
 
 ## 디렉터리 구조
 
