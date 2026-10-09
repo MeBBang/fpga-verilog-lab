@@ -33,7 +33,7 @@ module seg_array(
         case (seg_sel)
             8'b11111110 : bcd = state_bcd[3:0];
             8'b11111101 : bcd = state_bcd[7:4];
-            default     : bcd = 4'b1111;
+            default     : bcd = 4'b0000;
         endcase
     end
 
