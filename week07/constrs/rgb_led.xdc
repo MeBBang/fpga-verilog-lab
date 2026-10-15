@@ -1,0 +1,27 @@
+set_property -dict {PACKAGE_PIN K2 IOSTANDARD LVCMOS33} [get_ports rst]
+set_property -dict {PACKAGE_PIN B6 IOSTANDARD LVCMOS33} [get_ports clk]
+create_clock -period 1000.000 -name clk [get_ports clk]
+
+set_property -dict {PACKAGE_PIN K4 IOSTANDARD LVCMOS33} [get_ports {btn[0]}]
+set_property -dict {PACKAGE_PIN N8 IOSTANDARD LVCMOS33} [get_ports {btn[1]}]
+set_property -dict {PACKAGE_PIN N4 IOSTANDARD LVCMOS33} [get_ports {btn[2]}]
+set_property -dict {PACKAGE_PIN N1 IOSTANDARD LVCMOS33} [get_ports {btn[3]}]
+set_property -dict {PACKAGE_PIN P6 IOSTANDARD LVCMOS33} [get_ports {btn[4]}]
+set_property -dict {PACKAGE_PIN N6 IOSTANDARD LVCMOS33} [get_ports {btn[5]}]
+set_property -dict {PACKAGE_PIN L5 IOSTANDARD LVCMOS33} [get_ports {btn[6]}]
+set_property -dict {PACKAGE_PIN J2 IOSTANDARD LVCMOS33} [get_ports {btn[7]}]
+
+set_property -dict {PACKAGE_PIN T2 IOSTANDARD LVCMOS33} [get_ports {led_signal_R[0]}]
+set_property -dict {PACKAGE_PIN U1 IOSTANDARD LVCMOS33} [get_ports {led_signal_R[1]}]
+set_property -dict {PACKAGE_PIN P2 IOSTANDARD LVCMOS33} [get_ports {led_signal_R[2]}]
+set_property -dict {PACKAGE_PIN R3 IOSTANDARD LVCMOS33} [get_ports {led_signal_R[3]}]
+
+set_property -dict {PACKAGE_PIN U5 IOSTANDARD LVCMOS33} [get_ports {led_signal_G[0]}]
+set_property -dict {PACKAGE_PIN V1 IOSTANDARD LVCMOS33} [get_ports {led_signal_G[1]}]
+set_property -dict {PACKAGE_PIN R7 IOSTANDARD LVCMOS33} [get_ports {led_signal_G[2]}]
+set_property -dict {PACKAGE_PIN T6 IOSTANDARD LVCMOS33} [get_ports {led_signal_G[3]}]
+
+set_property -dict {PACKAGE_PIN U3 IOSTANDARD LVCMOS33} [get_ports {led_signal_B[0]}]
+set_property -dict {PACKAGE_PIN W2 IOSTANDARD LVCMOS33} [get_ports {led_signal_B[1]}]
+set_property -dict {PACKAGE_PIN R5 IOSTANDARD LVCMOS33} [get_ports {led_signal_B[2]}]
+set_property -dict {PACKAGE_PIN T3 IOSTANDARD LVCMOS33} [get_ports {led_signal_B[3]}]
