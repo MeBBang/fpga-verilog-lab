@@ -37,6 +37,7 @@
 | 5 | State Machine | [`week05/`](week05/) |
 | 6 | 7-Segment & Piezo | [`week06/`](week06/) |
 | 7 | LED PWM Control | [`week07/`](week07/) |
+| 8 | Text LCD Control | [`week08/`](week08/) |
 
 ## 디렉터리 구조
 
